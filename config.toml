@@ -5,7 +5,7 @@ theme = "ghostwriter"
 [Params]
     mainSections = ["post"]
     intro = true
-    headline = "Diego · Torres Arguedas Did it work?"
+    headline = "Diego · Torres Arguedas Did it work!?"
     description = "Computer Engineer"
     github = "https://github.com/diegotorrs"
     twitter = "https://twitter.com/XXX"
