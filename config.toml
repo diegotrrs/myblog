@@ -1,0 +1,18 @@
+baseurl = "https://diegotorrs.github.io/"
+title = "My blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Diego · Torres Arguedas"
+    description = "Computer Engineer"
+    github = "https://github.com/diegotorrs"
+    twitter = "https://twitter.com/XXX"
+    email = "diego.torres.arguedas@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+    hideHUGOSupport = false
+[Permalinks]
+    post = "/:filename/"
