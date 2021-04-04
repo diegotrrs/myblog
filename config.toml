@@ -1,11 +1,11 @@
-baseurl = "https://diegotorrs.github.io/"
+baseurl = "/"
 title = "My blog"
 theme = "ghostwriter"
 
 [Params]
     mainSections = ["post"]
     intro = true
-    headline = "Diego · Torres Arguedas"
+    headline = "Diego · Torres Arguedas Did it work?"
     description = "Computer Engineer"
     github = "https://github.com/diegotorrs"
     twitter = "https://twitter.com/XXX"
@@ -13,6 +13,6 @@ theme = "ghostwriter"
     opengraph = true
     shareTwitter = true
     dateFormat = "Mon, Jan 2, 2006"
-    hideHUGOSupport = false
+
 [Permalinks]
     post = "/:filename/"
