@@ -1,18 +1,18 @@
 +++
-title = "When to repeat yourself"
+title = "Repition"
 date = 2021-04-25T02:13:50Z
 author = "Diego Torres A."
 +++
 
-Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. 
-They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away.
-In programming the *Don't Repeat Yourself (DRY)* is one of most known and unquestionable practices.
+Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. 
+They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about.
+In programming the *Don't Repeat Yourself (DRY)* is one of most known and common practices.
 
-# 1. Don't Repeat Yourself
+# 1. Don't Repeat Yourself (DRY)
 
-The main idea behind the *Don't Repeat Yourself* principle or *DRY* is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain. 
+The main idea behind the *DRY* is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain. 
 
-*DRY*'s main objective is avoiding __duplication of knowledge__ (business rules or algorithms<sup>[[1]](#ref1)</sup>) but not necessarily about __duplication of code__.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge. 
+*DRY*'s main objective is avoiding __duplication of knowledge__ (business rules or algorithms<sup>[[1]](#ref1)</sup>) but it's not necessarily about __duplication of code__.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge. 
 
 
 In [[2]](#ref2) Mathias Verraes elaborates further on this:
@@ -60,7 +60,7 @@ Important to mention is that it is also acceptable to repeat yourself if you are
 * DRY is about duplication of knowledge, not duplication of code. 
 * Duplication is far cheaper than the wrong abstraction.
 * Be careful about introducing wrong abstractions. If necessary, re-introduce duplication to remove wrong abstractions. 
-* Before removing any duplication take in count the context and the __What-When-Who__: what is changing, when needs to be done and who's making it (your expertise).
+* Before removing any duplication take in count the context and the __What-When-Who__: what is changing, when it needs to be done and who's making it the change (your expertise).
 * DRY, as any other principles, are tools to guide you, not rules.
 
 
