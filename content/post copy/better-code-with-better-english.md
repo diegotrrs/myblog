@@ -9,7 +9,8 @@ author = "Diego Torres A."
 # 1. Conjugate Expect versus Expects.
 
 
-# 2. Know the difference between a noun and a verb.
+# 2. Know the difference between a noun and a verb, and adjective, preposition.
+preposition in functions names.
 
 # 3. Use the '.', write short sentences.
 
@@ -18,6 +19,11 @@ author = "Diego Torres A."
 # 5. Pluralization.
 Pluralization
 In English when you have two plural nouns text to one another the first one stays in singular (it's called Noun Adjuncts)
+
+# 6. Order noun and adjective
+redhouse
+housered
+
 
 # 5. References
 
