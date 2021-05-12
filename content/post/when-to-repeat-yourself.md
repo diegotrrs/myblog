@@ -66,11 +66,11 @@ Important to mention is that it is also acceptable to repeat yourself if you are
 
 # 5. References
 
-<a id="ref1" href="https://thevaluable.dev/dry-principle-cost-benefit-example/">[1]</a> Cneude, Matthieu. 2018. The DRY Principle: Benefits and Costs with Examples. https://www.mendeley.com/guides/ultimate-citation-cheat-sheet
+<a id="ref1" href="https://thevaluable.dev/dry-principle-cost-benefit-example/">[1]</a> Cneude, Matthieu. 2018. The DRY Principle: Benefits and Costs with Examples. https://thevaluable.dev/dry-principle-cost-benefit-example/
 
 <a id="ref2" href="https://verraes.net/2014/08/dry-is-about-knowledge/">[2]</a> Verraes, Mathias. 2014. DRY is about Knowledge. https://verraes.net/2014/08/dry-is-about-knowledge/
 
-<a id="ref3" href="https://isaaccomputerscience.org/concepts/dsa_ctm_abstraction">[3]</a> Abstraction and automation. https://verraes.net/2014/08/dry-is-about-knowledge/
+<a id="ref3" href="https://isaaccomputerscience.org/concepts/dsa_ctm_abstraction">[3]</a> Abstraction and automation. https://https://isaaccomputerscience.org/concepts/dsa_ctm_abstraction
 
 <a id="ref4" href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">[4]</a> Abstraction (computer science). https://en.wikipedia.org/wiki/Abstraction_(computer_science)
 
