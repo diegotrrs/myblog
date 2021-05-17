@@ -1,5 +1,5 @@
 baseurl: "/"
-title: "emptyset { }"
+title: "Home"
 theme: "ghostwriter"
 
 markup:
@@ -37,7 +37,7 @@ params:
     mainSections:
         - post
     intro: true
-    headline: "Welcome to Emptyset { }"
+    headline: "Hi, my name is Diego."
     description: "A space where I share what I learn and what I work on."
     github: "https://github.com/diegotorrs"
     twitter: "https://twitter.com/diego00t"

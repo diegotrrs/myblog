@@ -1,7 +1,7 @@
 +++
 title = "When to repeat yourself"
 date = 2021-04-25T02:13:50Z
-author = "Diego Torres A."
+author = "Diego Torres Arguedas"
 +++
 
 Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. 
