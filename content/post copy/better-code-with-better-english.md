@@ -1,7 +1,7 @@
 +++
 title = "Repition"
 date = 2021-04-25T02:13:50Z
-author = "Diego Torres A."
+author = "Diego Torres Arguedas"
 +++
 
 
