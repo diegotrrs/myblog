@@ -38,7 +38,7 @@ params:
         - post
     intro: true
     headline: "Hi, my name is Diego."
-    description: "A space where I share what I learn and what I work on."
+    description: "Welcome to my blog. This is space where I share what I learn and what I work on."
     github: "https://github.com/diegotorrs"
     twitter: "https://twitter.com/diego00t"
     email: "diego.torres.arguedas@gmail.com"
