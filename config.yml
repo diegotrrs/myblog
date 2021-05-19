@@ -1,56 +1,42 @@
-baseurl: "/"
-title: "Home"
-theme: "ghostwriter"
-
-markup:
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true
-    parser:
-      attribute:
-        block: false
-        title: true
-      autoHeadingID: true
-      autoHeadingIDType: github
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xhtml: false
-  highlight:
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    tabWidth: 2
-
+baseUrl: /
+languageCode: en-us
+theme: hello-friend
+copyright: ''
+paginate: 5
 
 params:
-    mainSections:
-        - post
-    intro: true
-    headline: "Hi, my name is Diego."
-    description: "Welcome to my blog. This is space where I share what I learn and what I work on."
-    github: "https://github.com/diegotorrs"
-    twitter: "https://twitter.com/diego00t"
-    email: "diego.torres.arguedas@gmail.com"
-    opengraph: true
-    shareTwitter: true
-    dateFormat: "Mon, Jan 2, 2006"
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # "dark" or "light"
+  defaultTheme: dark
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 2
 
-menu:
-  main:
-    - name: Posts
-      url: /
-      weight: 1
-    - name: About
-      url: /page/about/
-      weight: 0
+languages:
+  en:
+    title: Blog
+    subtitle: Diego Torres Arguedas
+    keywords: ''
+    menuMore: Show more
+    writtenBy: Written by
+    readMore: Read more
+    readOtherPosts: Read other posts
+    newerPosts: Newer posts
+    olderPosts: Older posts
+    dateFormatSingle: 01-02-2006
+    dateFormatList: 01-02-2006
+    
+    params:
+      logo:
+        logoText: cd
+        logoHomeLink: /
+    #   or
+    #
+    #   path: /img/your-example-logo.svg
+    #   alt: Your example logo alt text
+    
+    menu:
+      main:
+      - identifier: about
+        name: About me
+        url: /about
