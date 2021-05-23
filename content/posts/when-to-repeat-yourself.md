@@ -1,6 +1,6 @@
 +++
 title = "When to repeat yourself"
-date = 2021-04-25T02:13:50Z
+date = 2021-04-25
 author = "Diego Torres Arguedas"
 +++
 

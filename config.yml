@@ -11,6 +11,7 @@ params:
   defaultTheme: dark
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems: 2
+ 
 
 languages:
   en:
@@ -23,12 +24,13 @@ languages:
     readOtherPosts: Read other posts
     newerPosts: Newer posts
     olderPosts: Older posts
-    dateFormatSingle: 01-02-2006
-    dateFormatList: 01-02-2006
+    dateFormSingle: "Jan 2, 2006"
+    dateForm: "Jan 2, 2006"
+    dateFormList: "Jan 2, 2006"
     
     params:
       logo:
-        logoText: cd
+        logoText: $ cd  /home/
         logoHomeLink: /
     #   or
     #
