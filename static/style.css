@@ -1,0 +1,16 @@
+.inline-svg {
+    display: inline-block;
+    height: 10px;
+    width: 1.15rem;
+    margin-right: 25px;
+    top: 0.15rem;
+    position: relative;
+}
+.logo__cursor{
+    background: #dfa11c;
+    width: 3px;
+
+}
+.profile-image {
+    border-radius: 8px;
+}
