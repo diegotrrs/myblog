@@ -5,24 +5,24 @@ author = "Diego Torres Arguedas"
 +++
 
 Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. 
-They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about.
+They also faciliate communication between peers - if you bring a common practice in a conversation with your colleague they probably will know what you are talking about.
 In programming the *Don't Repeat Yourself (DRY)* is one of most known and common practices.
 
 # 1. Don't Repeat Yourself (DRY)
 
 The main idea behind the *DRY* is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain. 
 
-*DRY*'s main objective is avoiding __duplication of knowledge__ (business rules or algorithms<sup>[[1]](#ref1)</sup>) but it's not necessarily about __duplication of code__.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge. 
+*DRY*'s main objective is avoiding __duplication of knowledge__ (business rules or algorithms<sup> [[1]](#ref1)</sup>) but it's not necessarily about __duplication of code__.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge. 
 
 
-In [[2]](#ref2) Mathias Verraes elaborates further on this:
+[Mathias Verraes](#ref2)  elaborates further on this:
 
-> DRY It’s about knowledge. It’s about cohesion. If two pieces of code represent the exact same knowledge, they will always change together. Having to change them both is risky: you might forget one of them. On the other hand, if two identical pieces of code represent different knowledge, they will change independently. De-duplicating them introduces risk, because changing the knowledge for one object, might accidentally change it for the other object.
+> DRY is about knowledge. It’s about cohesion. If two pieces of code represent the exact same knowledge, they will always change together. Having to change them both is risky: you might forget one of them. On the other hand, if two identical pieces of code represent different knowledge, they will change independently. De-duplicating them introduces risk, because changing the knowledge for one object, might accidentally change it for the other object.
 
 
 # 2. Risk: Wrong abstraction
 
-Generally speaking, abstraction means removing unnecessary detail in order to focus attention on details of greater importance <sup>[[3]](#ref3) </sup> <sup>[[4]](#ref4) </sup>. In programming, this can be achieved by creating classes (generalisation), interfaces (information hiding) or functions (functional abstraction), among others. Abstraction is widely used to simplify things that may be very complex , but it can be also used to achieve other objectives such as __avoiding duplication of code__. But sometimes a __wrong abstraction__ can be introduced. 
+Generally speaking, abstraction means removing unnecessary detail in order to focus attention on details of greater importance <sup>[[3]](#ref3) </sup> <sup>[[4]](#ref4) </sup>. In programming, this can be achieved by creating classes (generalisation), interfaces (information hiding) or functions (functional abstraction), among others. Abstraction is widely used to simplify things that may be very complex , but it can also be used to achieve other objectives such as __avoiding duplication of code__. But sometimes a __wrong abstraction__ can be introduced. 
 
 Sandi Metz presents a really clear example of this:
 
@@ -34,7 +34,7 @@ Sandi Metz presents a really clear example of this:
 > 4. Time passes.
 > 5. A new requirement appears for which the current abstraction is almost perfect.
 > 6. Programmer B gets tasked to implement this requirement.
-> Programmer B feels honor-bound to retain the existing abstraction, but since isn't exactly the same for every case, they alter the code to take a parameter, and then add logic to conditionally do the right thing based on > the value of that parameter.
+> Programmer B feels honor-bound to retain the existing abstraction, but since it isn't exactly the same for every case, they alter the code to take a parameter, and then add logic to conditionally do the right thing based on > the value of that parameter.
 > What was once a universal abstraction now behaves differently for different cases.
 > 7. Another new requirement arrives.
 > Programmer X.
@@ -60,7 +60,7 @@ Important to mention is that it is also acceptable to repeat yourself if you are
 * DRY is about duplication of knowledge, not duplication of code. 
 * Duplication is far cheaper than the wrong abstraction.
 * Be careful about introducing wrong abstractions. If necessary, re-introduce duplication to remove wrong abstractions. 
-* Before removing any duplication take in count the context and the __What-When-Who__: what is changing, when it needs to be done and who's making it the change (your expertise).
+* Before removing any duplication take into count the context and the __What-When-Who__: what is changing, when it needs to be done and who's making the change (your expertise).
 * DRY, as any other principles, are tools to guide you, not rules.
 
 
