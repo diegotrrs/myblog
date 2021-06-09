@@ -10,7 +10,7 @@ In programming the *Don't Repeat Yourself (DRY)* is one of most known and common
 
 # 1. The Don't Repeat Yourself (DRY) principle
 
-The main idea behind the *DRY* is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain. 
+The main idea behind the *DRY* principle is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain. 
 
 *DRY*'s main objective is avoiding __duplication of knowledge__ (business rules or algorithms<sup> [[1]](#ref1)</sup>) but it's not necessarily about __duplication of code__.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge. 
 
