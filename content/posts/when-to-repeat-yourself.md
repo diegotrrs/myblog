@@ -8,7 +8,7 @@ Good practices are methods or techniques that have been generally accepted as th
 They also faciliate communication between peers - if you bring a common practice in a conversation with your colleague they probably will know what you are talking about.
 In programming the *Don't Repeat Yourself (DRY)* is one of most known and common practices.
 
-# 1. Don't Repeat Yourself (DRY)
+# 1. The Don't Repeat Yourself (DRY) principle
 
 The main idea behind the *DRY* is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain. 
 
