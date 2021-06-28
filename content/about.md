@@ -6,9 +6,9 @@ description = "Things about me."
 
 
 
-Hi there, I'm Diego 👋🏽 , and I like making software. This blog is a place where I document what I learn and what I build. Happy to connect with other people from the tech community and beyond.
+Hi there, I'm Diego 👋🏽 , and I like making software. This blog will be a place where I document what I learn and what I build. Happy to connect with other people from the tech community and beyond.
 
-Costa Rica 🇨🇷 born - Living in the North of England 🇬🇧  
+Costa Rica 🇨🇷 born - Living in the North of England 🇬🇧.
 
 {{< svg "twitter" "https://twitter.com/diego00t" >}}
 {{< svg "linkedIn" "https://www.linkedin.com/in/diegotorresarguedas-16ab533/">}}
