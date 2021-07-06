@@ -1,6 +1,9 @@
 
-# Myblog
-This repo contains the code for my blog https://www.torresdiego.com
-#B7A657 yellow
+This repo contains the code for my blog https://www.diegotorres.dev/ 🏗
 
-#BADC37 green
+# Running the blog locally.
+
+To run locally execute
+```shell
+hugo server
+```
