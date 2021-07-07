@@ -5,17 +5,17 @@ author = "Diego Torres Arguedas"
 +++
 
  
-Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what's causing a specific problem, makes the whole thing worthy. The following is a list of tips I usually take when troubleshooting:
+Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what's causing a specific problem, makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
 
 ## 1. Check the logs
-This one is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn't a web application then identify the components involved and choose an order to check out the logs - from inner layers to outer layer - or viceversa.
+This is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn't a web application then identify the components involved and choose an order to check out the logs - from inner layers to outer layer - or viceversa.
 
-Consider using cloud based logging/monitoring tool such as [Sentry](https://www.sentry.io) or [Log Rocket](https://logrocket.com/) they will make your life easier.
+Consider using cloud based logging/monitoring tool such as [Sentry](https://www.sentry.io) or [Log Rocket](https://logrocket.com/), they will make your life easier.
 
 
-## 2. Change one thing at the time.
+## 2. Change one thing at a time.
 
-Approach troubleshooting as an exercise of the [scientic method](https://www.britannica.com/science/scientific-method). Observe the problem, identify the possible variables involved, make predictions on how those variables value may be causing the issue and finally test your predictions **changing one thing at the time**. I cannot emphasize enough how important this is, if you change several things - for example variables's values - at the same time you might not come to conclusion as quick as desired since you're practically invaliding your tests. Soren Bjornstad talks about this on his blog [Debugging & the Scientic Method](https://controlaltbackspace.org/debugging/scientific-method/).
+Approach troubleshooting as an exercise of the [scientic method](https://www.britannica.com/science/scientific-method). Observe the problem, identify the possible variables involved, make predictions on how those variables value may be causing the issue and finally test your predictions **changing one thing at a time**. I cannot emphasize enough how important this is, if you change several things - for example variables's values - at the same time you might not come to conclusion as quick as desired since you're practically invaliding your tests. Soren Bjornstad talks about this on his blog [Debugging & the Scientic Method](https://controlaltbackspace.org/debugging/scientific-method/).
 
 ## 3. Identify what may have changed
 
