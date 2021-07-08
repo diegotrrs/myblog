@@ -1,14 +1,14 @@
 +++
-title = "10 Tips for troubleshooting"
+title = "Tips for troubleshooting"
 date = 2021-07-01
 author = "Diego Torres Arguedas"
 +++
 
  
-Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what's causing a specific problem, makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what's causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
 
 ## 1. Check the logs
-This is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn't a web application then identify the components involved and choose an order to check out the logs - from inner layers to outer layer - or viceversa.
+This is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn't a web application, then identify the components involved and choose an order to check out the logs - from inner layers to outer layer - or viceversa.
 
 Consider using cloud based logging/monitoring tool such as [Sentry](https://www.sentry.io) or [Log Rocket](https://logrocket.com/), they will make your life easier.
 
