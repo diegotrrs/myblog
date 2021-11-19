@@ -14,5 +14,4 @@ Good practices, such as keeping things simple and small, and keeping things fami
 - From a component point of view, it might mean a cohesive folder structure & good dependencies.
 - From an architecture point of view, it might mean micro-services with their own database or a modular monolith.
 
-It really doesn’t matter the specific scenario, what matters is that we are comfortable with those good practices
-and how we can change the perspective or depth we see things from.
+The specific scenario matters, but what matters the most long-term is that we are comfortable with those good practices and how we can change our perspective.
